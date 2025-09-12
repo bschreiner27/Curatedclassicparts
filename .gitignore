@@ -1,0 +1,35 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Env files (keep secrets out of git)
+.env
+.env.*
+!.env.example
+
+# Build outputs / caches
+dist/
+build/
+coverage/
+.turbo/
+.cache/
+.out/
+.next/
+.vite/
+
+# App-specific (monorepo)
+web/dist/
+api/dist/
+
+# Editors
+.idea/
+.vscode/
